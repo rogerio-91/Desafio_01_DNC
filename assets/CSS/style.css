@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 475px;
+    margin-top: 0;
+    background: #303030;
+    color: #ffffff;
+}
+
+header h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 72px;
+
+    margin-left: 62px;
+    margin-top: 206px;
+}
+
+header h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-left: 62px;
+    margin-top: -10px;
+}
+
+#subHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 229px;
+}
+
+#subHeader .pHeader {
+    margin-top: 88px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+#subHeader span {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+section {
+    height: 779px;
+    display: flex;
+    flex-direction: row;
+}
+
+section #content {
+    margin-left: 77px;
+    margin-top: 304px;
+    margin-right: 64px;
+
+
+    text-align: justify;
+    word-spacing: normal;
+}
+
+section #content h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 0.5;
+    letter-spacing: -2px;
+}
+
+
+section #content #pCotent {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+section #image {
+    width: 510px;
+    height: 605px;
+
+    margin-top: 82px;
+    margin-left: 64px;
+    margin-right: 54px;
+}
+
+footer {
+    height: 638px;
+    background: #303030;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer form h3 {
+    margin: 60px;
+
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+footer form input {
+    width: 508px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+footer form input::placeholder {
+    font-family: 'Releway';
+    font-size: 24px;
+    font-weight: 700px;
+
+    padding: 15px;
+
+}
+
+footer form button {
+    width: 286px;
+    height: 74px;
+    margin: 60px;
+
+    border-radius: 10px;
+    border: 0;
+    background: #C07212;
+    color: #ffffff;
+    font-family: 'Releway';
+    font-size: 30px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background: gray;
+}
