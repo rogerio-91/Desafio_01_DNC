@@ -19,7 +19,11 @@ footer: Possui um formulário para que os visitantes possam entrar em contato co
 
 Instruções de Uso:
 
-Para visualizar o site, basta acessar em seu navegador https://desafio-dnc-one.netlify.app/.
+Para visualizar o site, basta acessar em seu navegador: 
+https://desafio-dnc-one.netlify.app/
+
+Acesso a planilha de cadastro do Fale Conosco: 
+https://docs.google.com/spreadsheets/d/1zgmrF1G6SGtGNQ4kFmbGO76urpXrhcP1cL1rq99sfjs/edit?usp=sharing
 
 Contato:
 
